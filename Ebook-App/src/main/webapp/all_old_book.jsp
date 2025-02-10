@@ -44,7 +44,7 @@
 							Categaries:<%=b.getCategories()%></p>
 
 						<div class="row">
-							<a href="veiw_book.jsp?bid=<%=b.getBookId()%>" class="btn btn-primary ml-5 ">View Details</a> <a
+							<a href="veiw_book.jsp?bid=<%=b.getBookId()%>" class="btn btn-primary ml-5 " style="background:#578FCA">View Details</a> <a
 								href="#" class="btn btn-success ml-1 "><%=b.getPrice()%> <i
 								class="fa-solid fa-indian-rupee-sign"></i></a>
 						</div>

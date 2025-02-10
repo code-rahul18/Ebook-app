@@ -3,9 +3,10 @@
 	padding:0;
 	box-sizing: border-box;
 }
-.bg-custom{
-	background-color: #303f9f;
+.bg-custom {
+    background-color: #303f97 !important;
 }
+
 
 .navbar .nav-item:hover .nav-link{
 	background-color: white;

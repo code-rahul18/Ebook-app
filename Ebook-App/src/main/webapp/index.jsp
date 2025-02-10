@@ -54,7 +54,7 @@
 	
 
 	<div class="container-fluid  bg-img">
-		<h1 class="text-white text-center text-secondary" >EBook Management
+		<h1 class=" text-center"style="color:#493D9E" >EBook Management
 			System</h1>
 	</div>
 
@@ -89,7 +89,7 @@
 						%>
 
 						<div class="row">
-							<a href="veiw_book.jsp?bid=<%=b.getBookId()%>" class="btn btn-primary ml-5 " style="background-color:#304D30">View Details</a> <a
+							<a href="veiw_book.jsp?bid=<%=b.getBookId()%>" class="btn btn-primary ml-5 " style="background-color:#578FCA">View Details</a> <a
 								href="#" class="btn btn-success ml-1 " style="background-color:#4335A7"><%=b.getPrice()%> <i
 								class="fa-solid fa-indian-rupee-sign"></i></a>
 						</div>
@@ -113,7 +113,7 @@
 							
 						<%}%>
 			
-							 <a href="veiw_book.jsp?bid=<%=b.getBookId()%>"class="btn btn-primary ml-1 "  style="background-color:#304D30">View Details</a> 
+							 <a href="veiw_book.jsp?bid=<%=b.getBookId()%>"class="btn btn-primary ml-1 "  style="background-color:#578FCA">View Details</a> 
 							 <a href="#" class="btn btn-success ml-1  "  style="background-color:#4335A7"><%=b.getPrice()%> <i class="fa-solid fa-indian-rupee-sign"></i></a>
 						</div>
 						<%
@@ -186,7 +186,7 @@
 						<%}%>
 						
 						
-							 <a href="veiw_book.jsp?bid=<%=b.getBookId()%>"class="btn btn-primary ml-1 "style="background-color:#304D30">View Details</a>
+							 <a href="veiw_book.jsp?bid=<%=b.getBookId()%>"class="btn btn-primary ml-1 "style="background-color:#578FCA">View Details</a>
 							  <a href="#"class="btn btn-success ml-1 " style="background-color:#4335A7" ><%=b.getPrice()%> <i class="fa-solid fa-indian-rupee-sign"></i></a>
 						</div>
 					</div>
@@ -236,7 +236,7 @@
 
 						<div class="row">
 							<a href="veiw_book.jsp?bid=<%=b.getBookId()%>"
-								class="btn btn-primary ml-5 " style="background-color:#304D30">View Details</a> <a href="#"
+								class="btn btn-primary ml-5 " style="background-color:#578FCA">View Details</a> <a href="#"
 								class="btn btn-success ml-1 "  style="background-color:#4335A7"><%=b.getPrice()%> <i
 								class="fa-solid fa-indian-rupee-sign"></i></a>
 						</div>

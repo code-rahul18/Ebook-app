@@ -20,4 +20,4 @@
 	crossorigin="anonymous" referrerpolicy="no-referrer" />
 	
 	
-	<link rel="stylesheet" href="all_component/style.css">
+	<link rel="stylesheet" href="style.css">

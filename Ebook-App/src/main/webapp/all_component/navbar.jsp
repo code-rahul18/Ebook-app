@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page isELIgnored="false"%>
-<div class="container-fluid" style="height:10px;background-color:#303f9f"></div>
+<div class="container-fluid" style="height:10px;background-color:#303f97"></div>
 <div class="container-fluid p-3 bg-light">
 <div class="row">
 <div class="col-md-3 text-success">
@@ -41,7 +41,7 @@
 </div>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-custom " >
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom " style="background:#303f97">
 	<a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"

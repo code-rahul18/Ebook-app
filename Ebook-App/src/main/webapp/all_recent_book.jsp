@@ -54,7 +54,7 @@
 
 						<div class="row">
 							<a href="veiw_book.jsp?bid=<%=b.getBookId()%>"
-								class="btn btn-primary ml-5 " style="background-color: #AD49E1">View
+								class="btn btn-primary ml-5 " style="background-color: #578FCA">View
 								Details</a> <a href="#" class="btn btn-success ml-1 "><%=b.getPrice()%>
 								<i class="fa-solid fa-indian-rupee-sign"></i></a>
 						</div>
@@ -70,15 +70,15 @@
 							<%
 							if (u == null) {
 							%>
-							<a href="login.jsp" class="btn btn-danger ml-1 "><i
-								class="fa-solid fa-cart-plus"></i> Add Cart</a>
+							<a href="login.jsp" class="btn text-white ml-1 "style="background-color:#09122C"><i
+								class="fa-solid fa-cart-plus" ></i> Add Cart</a>
 							<%
 							}
 
 							else {
 							%>
 							<a href="cart?bid=<%=b.getBookId()%>&&uid=<%=u.getId()%>"
-								class="btn btn-danger ml-1 "><i
+								class="btn  ml-1 text-white"  style="background-color:#09122C"><i
 								class="fa-solid fa-cart-plus"></i> Add Cart</a>
 
 							<%
